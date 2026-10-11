@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid gray;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+}
+.menu a, .right a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin: 0 10px;
+    
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(./imges/background_.png);
+    height: 770px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    /* position: relative; */
+}
+
+.content{
+margin-bottom: 100px;
+   
+}
